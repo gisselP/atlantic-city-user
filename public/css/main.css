@@ -1,0 +1,34 @@
+
+.carousel-item img{
+	height: 100%;
+}
+.container{
+	max-width: 1795px;
+}
+.section-wrap-content-var-1{
+    background-color: #8f859e;
+}
+.section-wrap-content-var-1 p,
+.section-wrap-content-var-1 h2,
+.list-desc dt {
+    text-align: left;
+    color: white;
+}
+.button-secondary-outline:hover{
+    background: white;
+}
+.list-inline{
+    display: flex;
+}
+.breadcrumbs-01 {
+    background-image: url(../assets/breadcrumbs-01.jpg);
+}
+.bg-image {
+    background-size: cover;
+    background-position: center top;
+}
+@media (min-width: 1024px) {
+	.navbar-expand-lg .navbar-nav{
+		gap: 42px;
+	}
+}
