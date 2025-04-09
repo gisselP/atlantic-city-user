@@ -21,14 +21,47 @@
     display: flex;
 }
 .breadcrumbs-01 {
-    background-image: url(../assets/breadcrumbs-01.jpg);
+    background-image: url(../assets/about.jpg);
+    object-position: 50% 10px;
 }
 .bg-image {
     background-size: cover;
     background-position: center top;
 }
+.carousel-caption{
+    height: 100%;
+    bottom: 0px;
+    top: 0px;
+    align-content: center;
+}
+.carousel-caption h1,
+.carousel-caption h3,
+.carousel-caption h4{
+    color: aliceblue;
+}
+.hotel-booking-form{
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    object-fit: cover;
+}
+.thumbnail-classic figure > img{
+    height: 296px;
+    width: 370px;
+}
+figure{
+    margin: 0px;
+}
 @media (min-width: 1024px) {
 	.navbar-expand-lg .navbar-nav{
 		gap: 42px;
 	}
+    .hotel-booking-form{ 
+        padding: 0px 50px; 
+    }
 }
+

@@ -3645,11 +3645,11 @@ dl {
 }
 
 .breadcrumbs-01 {
-	background-image: url(../../src/assets/breadcrumbs-01.jpg);
+	background-image: url(../../public/assets/about.jpg);
 }
 
 .breadcrumbs-02 {
-	background-image: url(../../src/assets/breadcrumbs-02.jpg);
+	background-image: url(../../src/assets/about.jpg);
 }
 
 .panel-group.panel-group-custom {
